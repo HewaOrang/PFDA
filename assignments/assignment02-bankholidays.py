@@ -11,7 +11,7 @@ import requests
 url =" https://www.gov.uk/bank-holidays.json"              # URL for UK bank holidays API
 response = requests.get(url)                               # Send a GET request to the API
 data = response.json()                                     # Parse the JSON response into a Python dictionary  
-print (data)
+# print (data)
 
 other_uk_dates = set()  # Create an empty set to store other UK holidays
 
@@ -23,10 +23,16 @@ for event in data['scotland']['events']:
     if event['date'].startswith('2025'):
         other_uk_dates.add((event['title'], event['date']))
 
+# Print Northern Ireland holidays.
+for event in data['northern-ireland']['events']:
+    if event['date'].startswith('2025'):
+        print(f"{event['title']} on {event['date']}")
+
 # Print Northern Ireland holidays that are not in other UK holidays
 
 for event in data['northern-ireland']['events']:
     if event['date'].startswith('2025'):
         ni_holiday = (event['title'], event['date']) # Create a tuple for the Northern Ireland holiday
         if ni_holiday not in other_uk_dates:
-            print(f"{event['title']} on {event['date']}")
+            print(f"Holidays unique to Northern Ireland:")
+            print(f" {event['title']} on {event['date']}")
