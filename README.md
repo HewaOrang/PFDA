@@ -28,7 +28,7 @@ This assignment covers data visualisation:
 - Files: `assignment03-pie.ipynb`
 - Datasets: `people-1000.csv`,
 
-This demonstrates effective data visualization techniques.
+This demonstrates effective data visualisation techniques.
 
 ---
 
@@ -42,7 +42,7 @@ This assignment covers data visualisation:
 - Files: `assignment03-pie.ipynb`, `assignment05-population.ipynb`
 - Datasets: `people-1000.csv`, `population_for_analysis.csv`
 
-This demonstrates effective data visualization techniques.
+This demonstrates effective data visualisation techniques.
 
 ---
 
@@ -75,8 +75,15 @@ Assessing wind energy potential for Irish wind farms using 20 years of hourly me
 - **Section 1: Import Libraries and Load Data** - Data loading and preparation
 - **Section 2: Exploratory Data Analysis** - Wind speed characteristics and statistical analysis
 - **Section 3: Wind Power Estimation** - Power calculations using turbine physics and performance modeling
+- **Section 4: Operating Range Analysis** - Operating range of wind turbine
+- **Section 5: Temporal Patterns and Seasonality** - Seasonal Wind Patterns
+- **Section 6: Long-term Trend Analysis** - Longterm Wind Speed Trend
+- **Section 7: Correlation Analysis with Other Weather Metrics** - Wind speed correlations
+- **Section 8: Key Findings and Recommendations**
 
-This comprehensive project synthesizes all skills learned throughout the course in a real-world renewable energy context.
+
+
+This comprehensive project shows all skills learned throughout the course in a real-world renewable energy context.
 
 ---
 
