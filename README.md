@@ -68,7 +68,7 @@ Assessing wind energy potential for Irish wind farms using 20 years of hourly me
 - Analyses wind power potential, temporal patterns, and correlations with weather metrics.
 - Explores realistic wind farm operating ranges and long-term trends.
 - Provides forecasts for future wind farm power output.
-- Datasets: `mace_head_daily_data.csv`, `mace_head_hourly_data.csv`, `mace_head_monthly_data.csv`, `mly275.csv`
+- Datasets: `mace_head_daily_data.csv`, `mace_head_hourly_data.csv`, `mace_head_monthly_data.csv`
 
 ### **project.ipynb Contents**
 
@@ -79,7 +79,8 @@ Assessing wind energy potential for Irish wind farms using 20 years of hourly me
 - **Section 5: Temporal Patterns and Seasonality** - Seasonal Wind Patterns
 - **Section 6: Long-term Trend Analysis** - Longterm Wind Speed Trend
 - **Section 7: Correlation Analysis with Other Weather Metrics** - Wind speed correlations
-- **Section 8: Key Findings and Recommendations**
+- **Section 8: Next Week Wind Farm Output Forecast**
+- **Section 9: Key Findings and Recommendations**
 
 
 
@@ -110,8 +111,7 @@ PFDA/
     ├── project.ipynb
     ├── mace_head_daily_data.csv
     ├── mace_head_hourly_data.csv
-    ├── mace_head_monthly_data.csv
-    └── mly275.csv
+    └── mace_head_monthly_data.csv
 ```
 
 ---
