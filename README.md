@@ -126,8 +126,6 @@ This repository:
 4. **Applies** database operations and structured data management
 5. **Synthesizes** all skills in a comprehensive final project
 
-Follow these assignments and projects to understand, build, and extend data analysis workflows. Contributions and improvements are always welcome!
-
 ---
 
 ## **References**
